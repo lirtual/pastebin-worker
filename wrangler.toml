@@ -9,6 +9,10 @@ workers_dev = false
 # 如果不使用自定义域名，将下面的代码注释掉
 # route = { pattern = "as.al", custom_domain = true }
 
+kv_namespaces = [
+  { binding = "pastebin", id = "4b6a65b267d644749354f2a318c1677b" },
+]
+
 [vars]
 ENVIRONMENT = "production"
 BASE_URL = "https://as.al"
